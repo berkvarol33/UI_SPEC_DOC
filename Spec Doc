@@ -1,0 +1,22 @@
+User Managament Screen
+   Top Layer
+     -	New User Button =initializes creates new user data when clicked
+     -	Hide Disabled User= A tick box, if clicked to be ticked, hides disabled users.
+   Bottom Layer
+     Left Side
+       Information Table
+           Content
+             -ID = data type= integer
+             -User Name = data type = string
+             -Email = data type= string
+             -Enabled = data type = logical (true /false)
+     Right Side
+       New User Data Input Section
+         Content
+           -Username = input type: string = User Name data to be inputted on the Information Table
+           -Display Name= input type: string = Name to be displayed for the User
+           -Phone= input type: string= phone number data for the new user.
+           -Email= input type: string= Email data for the new user
+           -User Roles= input type: multiple choice= multiple choice ; Guest/ Admin/ Super Admin
+           -Enabled= input type: click to tick= tick box
+If New user button is clicked, then the new user with its data ( Username , Email and Enabled)  is added to the list on the list on the left side
